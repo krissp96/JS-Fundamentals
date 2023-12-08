@@ -3,7 +3,7 @@ function echo(param) {
   console.log(type);
 
   if (type == "string" || type == "number") {
-    console.log(param);
+    console.log(`====${param}`);
   } else {
     console.log("Parameter is not suitable for printing");
   }
